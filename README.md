@@ -72,7 +72,6 @@ My development philosophy centers on creating maintainable, scalable solutions w
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=DevKorrir&theme=github-compact&hide_border=true&bg_color=0D1117&color=4ECDC4&line=4ECDC4&point=4ECDC4" alt="Contribution Activity Graph"/>
 </div>
----
 
 ## Developer Wisdom
 
