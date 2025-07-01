@@ -63,15 +63,22 @@ My development philosophy centers on creating maintainable, scalable solutions w
 ## GitHub Analytics
 
 <div align="center">
+
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=DevKorrir&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=4ECDC4&text_color=C9D1D9&icon_color=4ECDC4" alt="GitHub Statistics"/>
+
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevKorrir&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=4ECDC4&text_color=C9D1D9" alt="Most Used Languages"/>
+
 </div>
+
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=DevKorrir&theme=dark&hide_border=true&background=0D1117&stroke=4ECDC4&ring=4ECDC4&fire=4ECDC4&currStreakLabel=4ECDC4&sideNums=C9D1D9&sideLabels=C9D1D9&dates=C9D1D9" alt="GitHub Streak Stats"/>
 </div>
+
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=DevKorrir&theme=github-compact&hide_border=true&bg_color=0D1117&color=4ECDC4&line=4ECDC4&point=4ECDC4" alt="Contribution Activity Graph"/>
 </div>
+
+---
 
 ## Developer Wisdom
 
