@@ -83,8 +83,9 @@ My development philosophy centers on creating maintainable, scalable solutions w
 ## Developer Wisdom
 
 <div align="center">
-  <div style="background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57); padding: 25px; border-radius: 20px; margin: 20px 0;">
-    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&border=true&quote=Code%20is%20like%20humor.%20When%20you%20have%20to%20explain%20it,%20it's%20bad.&author=Cory%20House" alt="Developer Quote"/>
+  <div style="background: linear-gradient(45deg, #667eea 0%, #764ba2 100%); padding: 25px; border-radius: 20px; margin: 20px 0; box-shadow: 0 8px 32px rgba(0,0,0,0.1);">
+    <h3 style="color: white; margin-bottom: 15px; font-size: 1.2em;">💡 Random Dev Quote</h3>
+    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Developer Quote" />
   </div>
 </div>
 
