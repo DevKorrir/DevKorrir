@@ -93,8 +93,6 @@ My development philosophy centers on creating maintainable, scalable solutions w
 
 ---
 
----
-
 ## Professional Philosophy
 
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 25px; border-radius: 20px; color: white; margin: 20px 0;">
