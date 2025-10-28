@@ -63,14 +63,23 @@ data class Developer(
 
 <div align="center">
 
+<!-- GitHub overall stats (radical theme) -->
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=DevKorrir&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=00ff87&icon_color=00d9ff&text_color=c9d1d9&border_radius=10" alt="GitHub Stats" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=DevKorrir&theme=radical&hide_border=true&background=0d1117&stroke=00ff87&ring=00ff87&fire=00d9ff&currStreakLabel=00ff87&border_radius=10" alt="GitHub Streak" />
 
+<!-- Streak (use the Vercel endpoint you tested) -->
+<img width="49%" src="https://streak-stats.vercel.app/?user=DevKorrir&theme=radical&hide_border=true&ring=00ff87&fire=00d9ff&currStreakLabel=00ff87&border_radius=10" alt="GitHub Streak" />
+
+<!-- Top languages (tokyonight-ish colors; uses github-readme-stats) -->
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevKorrir&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=70a5fd&text_color=38bdae&border_radius=10" alt="Top Languages" />
+
+<!-- Contribution / activity graph -->
 <img width="70%" src="https://github-readme-activity-graph.vercel.app/graph?username=DevKorrir&theme=react-dark&hide_border=true&bg_color=0d1117&color=00ff87&line=00d9ff&point=7b2cbf&area=true&border_radius=10" alt="Contribution Graph" />
 
 </div>
 
+
 ---
+
 
 ## 💭 Random Dev Wisdom
 
@@ -113,7 +122,7 @@ data class Developer(
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=DevKorrir&style=for-the-badge&color=00ff87" alt="Profile Views" />
+<img src="https://komarev.com/ghpvc/?username=DevKorrir&style=for-the-badge&color=blueviolet" alt="Profile Views" />
 
 <br/><br/>
 
@@ -121,7 +130,7 @@ data class Developer(
 ╔════════════════════════════════════════════════════════╗
 ║                                                        ║
 ║        💚 Thanks for stopping by my profile! 💚        ║
-║          ✨ Have an amazing day ahead! ✨             ║
+║          ✨ Have an amazing day ahead! ✨              ║
 ║                                                        ║
 ╚════════════════════════════════════════════════════════╝
 ```
