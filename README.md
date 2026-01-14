@@ -1,4 +1,4 @@
-# ✨ Aldo Kipyegon Korir ✨
+# Aldo Kipyegon Korir <img src="https://user-images.githubusercontent.com/74038190/214644152-52f47eb3-5e31-4f47-8758-05c9468d5596.gif" width="35">
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff87,50:00d9ff,100:7b2cbf&height=200&section=header&text=Mobile%20Developer&fontSize=50&fontColor=ffffff&animation=twinkling&fontAlignY=35" width="100%"/>
@@ -6,67 +6,76 @@
 
 <div align="center">
 
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="500">
+
 ```ascii
 ╔═══════════════════════════════════════╗
-║   🌸 Mobile Developer from Kenya 🌸   ║
-║      Making apps with love 💙         ║
+║     Mobile Developer from Kenya       ║
+║       Crafting apps with passion      ║
 ╚═══════════════════════════════════════╝
 ```
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Quicksand&weight=600&size=24&duration=3000&pause=800&color=00FF87&center=true&vCenter=true&width=500&lines=✨+Android+Developer+✨;💙+Kotlin+Enthusiast+💙;🎨+UI%2FUX+Lover+🎨;☕+Coffee+%2B+Code+%3D+💕" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=00FF87&center=true&vCenter=true&width=500&lines=Android+Developer;Kotlin+Enthusiast;UI%2FUX+Advocate;Clean+Code+Practitioner" alt="Typing SVG" />
 
 </div>
 
 ---
 
-## 🎀 About Me
+## About Me
 
-<img align="right" width="320" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif">
+<img align="right" width="320" src="https://user-images.githubusercontent.com/74038190/212750672-2f3f2b50-c84f-4ed8-a60a-849ae69ff9df.gif">
 
 ```kotlin
-data class Developer(
-    val name: String = "Aldo",
-    val location: String = "Kenya 🇰🇪",
-    val passion: String = "Mobile Development",
-    val loves: List<String> = listOf(
-        "Kotlin 💙",
-        "Android 🤖", 
-        "Clean Code ✨",
-        "Coffee ☕"
+object Developer {
+    val name = "Aldo Kipyegon Korir"
+    val role = "Mobile Developer"
+    val location = "Kenya"
+    
+    val skills = mapOf(
+        "languages" to listOf("Kotlin", "Java", "Dart", "Python"),
+        "frameworks" to listOf("Jetpack Compose", "Flutter"),
+        "architecture" to listOf("MVVM", "Clean Architecture", "MVI"),
+        "tools" to listOf("Firebase", "Git", "CI/CD")
     )
-)
+    
+    val currentFocus = "Building scalable Android applications"
+    
+    fun contact() = "kipyegonaldo@gmail.com"
+}
 ```
+
+<br clear="right"/>
 
 ---
 
-## 🌸 Tech I Work With
+## Tech Stack
 
 <div align="center">
 
-### 💙 Mobile Development
+### Mobile Development
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 
-### 💻 Programming Languages
+### Programming Languages
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-### 🗄️ Databases
+### Databases
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Neon](https://img.shields.io/badge/Neon-00E699?style=for-the-badge&logo=neon&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-### ☁️ Cloud Platforms
+### Cloud Platforms
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 
-### 🛠️ Tools & IDEs
+### Tools & IDEs
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
@@ -78,32 +87,41 @@ data class Developer(
 
 ---
 
-
-## 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
 
-<!-- GitHub overall stats (radical theme) -->
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=DevKorrir&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=00ff87&icon_color=00d9ff&text_color=c9d1d9&border_radius=10" alt="GitHub Stats" />
+<a href="https://github.com/DevKorrir">
+  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=DevKorrir&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=00ff87&icon_color=00d9ff&text_color=c9d1d9&border_radius=10&count_private=true&include_all_commits=true" alt="GitHub Stats" />
+</a>
 
-<!-- Streak (use the Vercel endpoint you tested) -->
-<img width="49%" src="https://streak-stats.vercel.app/?user=DevKorrir&theme=radical&hide_border=true&ring=00ff87&fire=00d9ff&currStreakLabel=00ff87&border_radius=10" alt="GitHub Streak" />
+<a href="https://github.com/DevKorrir">
+  <img width="49%" src="https://github-readme-streak-stats-eight.vercel.app/?user=DevKorrir&theme=radical&hide_border=true&background=0d1117&ring=00ff87&fire=00d9ff&currStreakLabel=00ff87&border_radius=10" alt="GitHub Streak" />
+</a>
 
-<!-- Top languages (tokyonight-ish colors; uses github-readme-stats) -->
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevKorrir&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=70a5fd&text_color=38bdae&border_radius=10" alt="Top Languages" />
+<a href="https://github.com/DevKorrir">
+  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=DevKorrir&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=00ff87&text_color=c9d1d9&border_radius=10&langs_count=8" alt="Top Languages" />
+</a>
 
-<!-- Contribution / activity graph -->
 <img width="70%" src="https://github-readme-activity-graph.vercel.app/graph?username=DevKorrir&theme=react-dark&hide_border=true&bg_color=0d1117&color=00ff87&line=00d9ff&point=7b2cbf&area=true&border_radius=10" alt="Contribution Graph" />
+
+### Contribution Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DevKorrir/DevKorrir/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DevKorrir/DevKorrir/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/DevKorrir/DevKorrir/output/github-snake.svg" width="100%" />
+</picture>
 
 </div>
 
-
 ---
 
-
-## 💭 Random Dev Wisdom
+## Dev Wisdom
 
 <div align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="80">
 
 ```ascii
 ╔════════════════════════════════════════════════════════╗
@@ -111,19 +129,14 @@ data class Developer(
 ║   it's bad." - Cory House                              ║
 ╚════════════════════════════════════════════════════════╝
 ```
----
 
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&border=true" alt="Random Dev Quote" />
-
-
 
 </div>
 
 ---
 
-
-
-## 💌 Let's Connect!
+## Let's Connect
 
 <div align="center">
 
@@ -149,11 +162,13 @@ data class Developer(
 ```ascii
 ╔════════════════════════════════════════════════════════╗
 ║                                                        ║
-║        💚 Thanks for stopping by my profile! 💚        ║
-║          ✨ Have an amazing day ahead! ✨              ║
+║         Thanks for stopping by my profile!             ║
+║            Have an amazing day ahead!                  ║
 ║                                                        ║
 ╚════════════════════════════════════════════════════════╝
 ```
+
+<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" width="120" alt="Octocat" />
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff87,50:00d9ff,100:7b2cbf&height=120&section=footer&animation=twinkling" width="100%"/>
 
