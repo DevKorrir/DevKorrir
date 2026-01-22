@@ -1,4 +1,4 @@
-# Aldo Kipyegon Korir <img src="https://user-images.githubusercontent.com/74038190/214644152-52f47eb3-5e31-4f47-8758-05c9468d5596.gif" width="35">
+# Aldo Kipyegon Korir
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,50:0072ff,100:7c3aed&height=200&section=header&text=Mobile%20Developer&fontSize=50&fontColor=ffffff&animation=twinkling&fontAlignY=35" width="100%"/>
