@@ -140,12 +140,12 @@ Exploring shared business logic, navigation & UI across Android and iOS. See [**
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats-eight-lake-60.vercel.app/api?username=DevKorrir&show_icons=true&hide_border=true&bg_color=0d1117&title_color=F472B6&icon_color=818CF8&text_color=e2e8f0&border_radius=10&count_private=true&include_all_commits=true" alt="GitHub Stats" />
-<img height="180" src="https://streak-stats.demolab.com?user=DevKorrir&hide_border=true&background=0d1117&ring=F472B6&fire=818CF8&currStreakLabel=F472B6&sideLabels=e2e8f0&dates=94a3b8&border_radius=10" alt="GitHub Streak" />
+<img height="180" src="https://raw.githubusercontent.com/DevKorrir/DevKorrir/main/github-stats.svg" alt="GitHub Stats" />
+<img height="180" src="https://raw.githubusercontent.com/DevKorrir/DevKorrir/main/streak.svg" alt="GitHub Streak" />
 
 <br/><br/>
 
-<img height="160" src="https://github-readme-stats-eight-lake-60.vercel.app/api/top-langs/?username=DevKorrir&layout=compact&hide_border=true&bg_color=0d1117&title_color=F472B6&text_color=e2e8f0&border_radius=10&langs_count=8&hide=html,css" alt="Top Languages" />
+<img height="160" src="https://raw.githubusercontent.com/DevKorrir/DevKorrir/main/top-langs.svg" alt="Top Languages" />
 
 <br/><br/>
 
