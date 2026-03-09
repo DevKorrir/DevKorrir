@@ -2,10 +2,8 @@ name: Generate GitHub Streak SVG
 
 on:
   schedule:
-    - cron: "30 */12 * * *"
-  workflow_dispatch:
-  push:
-    branches: [main]
+    - cron: "0 7 * * *"   # once daily at 7am UTC
+  workflow_dispatch:        # manual trigger only
 
 jobs:
   generate:
@@ -18,10 +16,11 @@ jobs:
 
       - name: Fetch Streak SVG
         run: |
-          curl -s \
+          curl -sf --retry 3 \
             "https://streak-stats.demolab.com?user=DevKorrir&hide_border=true&background=0d1117&ring=F472B6&fire=818CF8&currStreakLabel=F472B6&sideLabels=e2e8f0&dates=94a3b8&border_radius=10" \
             -o streak.svg
-          # Replace near-black #151515 number color with bright white so it's visible on dark bg
+          grep -q '<svg' streak.svg || (echo "ERROR: streak response is not SVG" && cat streak.svg && exit 1)
+          # Fix near-black number color to be visible on dark background
           sed -i "s/fill='#151515'/fill='#e2e8f0'/g" streak.svg
           sed -i 's/fill="#151515"/fill="#e2e8f0"/g' streak.svg
 
@@ -30,5 +29,5 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add streak.svg
-          git diff --cached --quiet || git commit -m "chore: refresh streak SVG"
+          git diff --cached --quiet || git commit -m "chore: refresh streak SVG [skip ci]"
           git push

@@ -2,10 +2,8 @@ name: Generate GitHub Stats SVGs
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
-  push:
-    branches: [main]
+    - cron: "0 6 * * *"   # once daily at 6am UTC
+  workflow_dispatch:        # manual trigger only
 
 jobs:
   generate:
@@ -18,20 +16,23 @@ jobs:
 
       - name: Fetch GitHub Stats SVG
         run: |
-          curl -s \
+          curl -sf --retry 3 \
             "https://github-readme-stats-eight-lake-60.vercel.app/api?username=DevKorrir&show_icons=true&hide_border=true&bg_color=0d1117&title_color=F472B6&icon_color=818CF8&text_color=e2e8f0&border_radius=10&count_private=true&include_all_commits=true" \
             -o github-stats.svg
+          # Verify it's actually an SVG not an error page
+          grep -q '<svg' github-stats.svg || (echo "ERROR: stats response is not SVG" && cat github-stats.svg && exit 1)
 
       - name: Fetch Top Languages SVG
         run: |
-          curl -s \
+          curl -sf --retry 3 \
             "https://github-readme-stats-eight-lake-60.vercel.app/api/top-langs/?username=DevKorrir&layout=compact&hide_border=true&bg_color=0d1117&title_color=F472B6&text_color=e2e8f0&border_radius=10&langs_count=8&hide=html,css" \
             -o top-langs.svg
+          grep -q '<svg' top-langs.svg || (echo "ERROR: top-langs response is not SVG" && cat top-langs.svg && exit 1)
 
       - name: Commit SVGs
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add github-stats.svg top-langs.svg
-          git diff --cached --quiet || git commit -m "chore: refresh stats SVGs"
+          git diff --cached --quiet || git commit -m "chore: refresh stats SVGs [skip ci]"
           git push
