@@ -21,6 +21,9 @@ jobs:
           curl -s \
             "https://streak-stats.demolab.com?user=DevKorrir&hide_border=true&background=0d1117&ring=F472B6&fire=818CF8&currStreakLabel=F472B6&sideLabels=e2e8f0&dates=94a3b8&border_radius=10" \
             -o streak.svg
+          # Replace near-black #151515 number color with bright white so it's visible on dark bg
+          sed -i "s/fill='#151515'/fill='#e2e8f0'/g" streak.svg
+          sed -i 's/fill="#151515"/fill="#e2e8f0"/g' streak.svg
 
       - name: Commit streak SVG
         run: |
