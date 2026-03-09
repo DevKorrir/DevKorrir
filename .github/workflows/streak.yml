@@ -1,0 +1,41 @@
+name: Generate GitHub Streak SVG
+
+on:
+  schedule:
+    - cron: "30 */12 * * *"   # offset by 30 min from stats job
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate streak card
+        uses: DenverCoder1/github-readme-streak-stats@v2
+        with:
+          user: DevKorrir
+          hide_border: true
+          background: 0d1117
+          ring: F472B6
+          fire: 818CF8
+          currStreakLabel: F472B6
+          sideLabels: e2e8f0
+          dates: 94a3b8
+          border_radius: 10
+          output_path: streak.svg
+        env:
+          GH_TOKEN: ${{ secrets.PAT_1 }}
+
+      - name: Commit streak SVG
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add streak.svg
+          git diff --cached --quiet || git commit -m "chore: refresh streak SVG"
+          git push

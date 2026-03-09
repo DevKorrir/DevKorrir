@@ -1,0 +1,62 @@
+name: Generate GitHub Stats SVGs
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # every 12 hours
+  workflow_dispatch:          # allow manual trigger
+  push:
+    branches: [main]
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # ── GitHub Stats ──────────────────────────────────────────────────────
+      - name: Generate stats card
+        uses: anuraghazra/github-readme-stats@latest
+        with:
+          username: DevKorrir
+          count_private: true
+          include_all_commits: true
+          show_icons: true
+          hide_border: true
+          bg_color: 0d1117
+          title_color: F472B6
+          icon_color: 818CF8
+          text_color: e2e8f0
+          border_radius: 10
+          custom_filename: github-stats
+        env:
+          PAT_1: ${{ secrets.PAT_1 }}
+
+      # ── Top Languages ─────────────────────────────────────────────────────
+      - name: Generate top-langs card
+        uses: anuraghazra/github-readme-stats@latest
+        with:
+          username: DevKorrir
+          layout: compact
+          langs_count: 8
+          hide: html,css
+          hide_border: true
+          bg_color: 0d1117
+          title_color: F472B6
+          text_color: e2e8f0
+          border_radius: 10
+          custom_filename: top-langs
+          card_type: top_langs
+        env:
+          PAT_1: ${{ secrets.PAT_1 }}
+
+      # ── Commit generated SVGs ─────────────────────────────────────────────
+      - name: Commit SVGs
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add github-stats.svg top-langs.svg
+          git diff --cached --quiet || git commit -m "chore: refresh stats SVGs"
+          git push
