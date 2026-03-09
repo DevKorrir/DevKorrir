@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=12,20,24&height=180&section=header&text=Aldo%20Kipyegon%20Korir&fontSize=42&fontColor=ffffff&animation=fadeIn&desc=Mobile%20Developer%20%C2%B7%20Kenya&descSize=18&descAlignY=75" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=180&section=header&text=Aldo%20Kipyegon%20Korir&fontSize=42&fontColor=ffffff&animation=fadeIn&desc=Mobile%20Developer%20%C2%B7%20Kenya&descSize=18&descAlignY=75" width="100%"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&width=580&lines=Android+%26+Kotlin+Developer;Jetpack+Compose+Craftsperson;Kotlin+Multiplatform+Explorer;Flutter+%2F+Dart+Developer;Clean+Architecture+Practitioner;M-Pesa+Integration+Specialist" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=800&color=F472B6&center=true&vCenter=true&width=580&lines=Android+%26+Kotlin+Developer;Jetpack+Compose+Craftsperson;Kotlin+Multiplatform+Explorer;Flutter+%2F+Dart+Developer;Clean+Architecture+Practitioner;M-Pesa+Integration+Specialist" alt="Typing SVG" />
 
 </div>
 
@@ -30,7 +30,7 @@ object Developer {
     )
 
     val currentFocus = "Kotlin Multiplatform & Material3 Expressive"
-    
+
     fun contact() = "kipyegonaldo@gmail.com"
 }
 ```
@@ -140,13 +140,16 @@ Exploring shared business logic, navigation & UI across Android and iOS. See [**
 
 <div align="center">
 
-<img width="32%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=DevKorrir&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=A78BFA&icon_color=7dd3fc&text_color=c9d1d9&border_radius=10&count_private=true&include_all_commits=true" alt="GitHub Stats" />
-<img width="32%" src="https://github-readme-streak-stats-eight.vercel.app/?user=DevKorrir&theme=radical&hide_border=true&background=0d1117&ring=A78BFA&fire=7dd3fc&currStreakLabel=A78BFA&border_radius=10" alt="GitHub Streak" />
-<img width="32%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=DevKorrir&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=A78BFA&text_color=c9d1d9&border_radius=10&langs_count=6" alt="Top Languages" />
+<img width="47%" src="https://github-readme-stats.vercel.app/api?username=DevKorrir&show_icons=true&hide_border=true&bg_color=0d1117&title_color=F472B6&icon_color=818CF8&text_color=e2e8f0&border_radius=10&count_private=true&include_all_commits=true" alt="GitHub Stats" />
+<img width="47%" src="https://streak-stats.demolab.com?user=DevKorrir&hide_border=true&background=0d1117&ring=F472B6&fire=818CF8&currStreakLabel=F472B6&sideLabels=e2e8f0&dates=94a3b8&border_radius=10" alt="GitHub Streak" />
 
 <br/><br/>
 
-<img width="75%" src="https://github-readme-activity-graph.vercel.app/graph?username=DevKorrir&theme=react-dark&hide_border=true&bg_color=0d1117&color=A78BFA&line=7dd3fc&point=7b2cbf&area=true&border_radius=10" alt="Contribution Graph" />
+<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevKorrir&layout=compact&hide_border=true&bg_color=0d1117&title_color=F472B6&text_color=e2e8f0&border_radius=10&langs_count=6" alt="Top Languages" />
+
+<br/><br/>
+
+<img width="75%" src="https://github-readme-activity-graph.vercel.app/graph?username=DevKorrir&theme=react-dark&hide_border=true&bg_color=0d1117&color=F472B6&line=818CF8&point=c084fc&area=true&border_radius=10" alt="Contribution Graph" />
 
 ### Contribution Snake
 
@@ -188,7 +191,7 @@ Whether it's a project, a collaboration, or just a chat about tech — I'd love 
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=DevKorrir&style=for-the-badge&color=a78bfa" alt="Profile Views" />
+<img src="https://komarev.com/ghpvc/?username=DevKorrir&style=for-the-badge&color=F472B6" alt="Profile Views" />
 
 <br/><br/>
 
@@ -200,6 +203,6 @@ Whether it's a project, a collaboration, or just a chat about tech — I'd love 
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=12,20,24&height=100&section=footer&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=100&section=footer&animation=fadeIn" width="100%"/>
 
 </div>
