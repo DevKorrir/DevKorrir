@@ -1,21 +1,10 @@
-# Aldo Kipyegon Korir
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,50:0072ff,100:7c3aed&height=200&section=header&text=Mobile%20Developer&fontSize=50&fontColor=ffffff&animation=twinkling&fontAlignY=35" width="100%"/>
-</div>
-
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="500">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=12,20,24&height=180&section=header&text=Aldo%20Kipyegon%20Korir&fontSize=42&fontColor=ffffff&animation=fadeIn&desc=Mobile%20Developer%20%C2%B7%20Kenya&descSize=18&descAlignY=75" width="100%"/>
 
-```ascii
-╔═══════════════════════════════════════╗
-║     Mobile Developer from Kenya       ║
-║       Crafting apps with passion      ║
-╚═══════════════════════════════════════╝
-```
+<br/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=00FF87&center=true&vCenter=true&width=600&lines=Android+Developer;Kotlin+%26+Jetpack+Compose+Enthusiast;Kotlin+Multiplatform+Explorer;Flutter+%2F+Dart+Developer;Clean+Architecture+Practitioner;M-Pesa+Integration+Specialist" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&width=580&lines=Android+%26+Kotlin+Developer;Jetpack+Compose+Craftsperson;Kotlin+Multiplatform+Explorer;Flutter+%2F+Dart+Developer;Clean+Architecture+Practitioner;M-Pesa+Integration+Specialist" alt="Typing SVG" />
 
 </div>
 
@@ -23,13 +12,13 @@
 
 ## About Me
 
-<img align="right" width="320" src="https://user-images.githubusercontent.com/74038190/212750672-2f3f2b50-c84f-4ed8-a60a-849ae69ff9df.gif">
+<img align="right" width="300" src="https://user-images.githubusercontent.com/74038190/212750672-2f3f2b50-c84f-4ed8-a60a-849ae69ff9df.gif"/>
 
 ```kotlin
 object Developer {
-    val name = "Aldo Kipyegon Korir"
-    val role = "Mobile Developer"
-    val location = "Kenya 🇰🇪"
+    val name     = "Aldo Kipyegon Korir"
+    val role     = "Mobile Developer"
+    val location = "Kenya"
 
     val skills = mapOf(
         "languages"    to listOf("Kotlin", "Dart", "Java", "Python"),
@@ -41,7 +30,7 @@ object Developer {
     )
 
     val currentFocus = "Kotlin Multiplatform & Material3 Expressive"
-
+    
     fun contact() = "kipyegonaldo@gmail.com"
 }
 ```
@@ -50,18 +39,18 @@ object Developer {
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
 <div align="center">
 
-| Project | Description | Stack |
-|--------|-------------|-------|
-| [**AgriConnect**](https://github.com/DevKorrir/AgriConnect) | Connecting farmers, buyers & experts via real-time chat, listings & delivery coordination | Kotlin · Compose · MVVM · Firebase |
+| Project | What it does | Stack |
+|---------|-------------|-------|
+| [**AgriConnect**](https://github.com/DevKorrir/AgriConnect) | Connects farmers, buyers & experts via real-time chat, listings & delivery coordination | Kotlin · Compose · MVVM · Firebase |
 | [**TubeFetch-Kotlin**](https://github.com/DevKorrir/tubeFetch-Kotlin) | Modern YouTube video & audio downloader with background downloads | Kotlin · Compose · WorkManager · Room |
 | [**SmartPace**](https://github.com/DevKorrir/SmartPace) | Student planner with study schedules, reminders & built-in chat | Flutter · Firebase · Dart |
-| [**mpesa-daraja-Kotlin**](https://github.com/DevKorrir/mpesa_daraja_integration-Kotlin) | M-Pesa STK Push integration for Android apps | Kotlin · Retrofit · Coroutines |
+| [**mpesa-daraja-Kotlin**](https://github.com/DevKorrir/mpesa_daraja_integration-Kotlin) | Clean M-Pesa STK Push integration for Android apps | Kotlin · Retrofit · Coroutines |
 | [**TransCore-Kotlin**](https://github.com/DevKorrir/TransCore-Kotlin) | Translation app supporting 100+ languages | Kotlin · Compose · Hilt · Retrofit |
-| [**wavyExpressive-Kotlin**](https://github.com/DevKorrir/wavyExpressive-Koltin) | Material3 Expressive APIs demo — wavy progress with dynamic theming | Kotlin · Compose · Material3 |
+| [**wavyExpressive-Kotlin**](https://github.com/DevKorrir/wavyExpressive-Koltin) | Material3 Expressive APIs demo — wavy progress & dynamic theming | Kotlin · Compose · Material3 |
 | [**mustid-kotlin**](https://github.com/DevKorrir/mustid-kotlin) | Student identity management via QR code scanning | Kotlin · Compose · Firebase |
 | [**Voyager-Navigation-CMP**](https://github.com/DevKorrir/Voyager-Navigation-CMP) | KMP demo for Android & iOS using Voyager navigation | Kotlin Multiplatform · CMP |
 
@@ -69,7 +58,7 @@ object Developer {
 
 ---
 
-## 🌐 Kotlin Multiplatform (KMP)
+## Kotlin Multiplatform
 
 <div align="center">
 
@@ -77,11 +66,8 @@ object Developer {
 // Write once, run everywhere
 expect fun getPlatformName(): String
 
-// Android
-actual fun getPlatformName() = "Android"
-
-// iOS
-actual fun getPlatformName() = "iOS"
+actual fun getPlatformName() = "Android"  // Android
+actual fun getPlatformName() = "iOS"      // iOS
 ```
 
 <img src="https://img.shields.io/badge/Kotlin_Multiplatform-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
@@ -89,8 +75,7 @@ actual fun getPlatformName() = "iOS"
 <img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white" />
 <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
 
-> 🔭 Exploring shared business logic, navigation & UI across Android and iOS  
-> 📦 **[Voyager-Navigation-CMP](https://github.com/DevKorrir/Voyager-Navigation-CMP)** — Tab-based stack navigation on both platforms
+Exploring shared business logic, navigation & UI across Android and iOS. See [**Voyager-Navigation-CMP**](https://github.com/DevKorrir/Voyager-Navigation-CMP) for a tab-based stack navigation demo on both platforms.
 
 </div>
 
@@ -104,7 +89,7 @@ actual fun getPlatformName() = "iOS"
 <tr>
 <td valign="top" width="33%">
 
-#### 📱 Mobile
+#### Mobile
 <p align="center">
   <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" /><br/>
   <img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" /><br/>
@@ -116,7 +101,7 @@ actual fun getPlatformName() = "iOS"
 </td>
 <td valign="top" width="33%">
 
-#### 🗄️ Backend & DB
+#### Backend & Data
 <p align="center">
   <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" /><br/>
   <img src="https://img.shields.io/badge/Room-4479A1?style=for-the-badge&logo=sqlite&logoColor=white" /><br/>
@@ -128,7 +113,7 @@ actual fun getPlatformName() = "iOS"
 </td>
 <td valign="top" width="33%">
 
-#### 🛠️ Tools
+#### Tooling
 <p align="center">
   <img src="https://img.shields.io/badge/Hilt-3DDC84?style=for-the-badge&logo=android&logoColor=white" /><br/>
   <img src="https://img.shields.io/badge/Retrofit-48B983?style=for-the-badge&logo=square&logoColor=white" /><br/>
@@ -141,7 +126,7 @@ actual fun getPlatformName() = "iOS"
 </tr>
 </table>
 
-#### 💳 Payments
+#### Payments
 <p align="center">
   <img src="https://img.shields.io/badge/M--Pesa_Daraja-00A651?style=for-the-badge&logo=safaricom&logoColor=white" />
   <img src="https://img.shields.io/badge/STK_Push-00A651?style=for-the-badge&logo=safaricom&logoColor=white" />
@@ -155,15 +140,15 @@ actual fun getPlatformName() = "iOS"
 
 <div align="center">
 
-<img width="32%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=DevKorrir&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=00ff87&icon_color=00d9ff&text_color=c9d1d9&border_radius=10&count_private=true&include_all_commits=true" alt="GitHub Stats" />
-<img width="32%" src="https://github-readme-streak-stats-eight.vercel.app/?user=DevKorrir&theme=radical&hide_border=true&background=0d1117&ring=00ff87&fire=00d9ff&currStreakLabel=00ff87&border_radius=10" alt="GitHub Streak" />
-<img width="32%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=DevKorrir&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=00ff87&text_color=c9d1d9&border_radius=10&langs_count=6" alt="Top Languages" />
+<img width="32%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=DevKorrir&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=A78BFA&icon_color=7dd3fc&text_color=c9d1d9&border_radius=10&count_private=true&include_all_commits=true" alt="GitHub Stats" />
+<img width="32%" src="https://github-readme-streak-stats-eight.vercel.app/?user=DevKorrir&theme=radical&hide_border=true&background=0d1117&ring=A78BFA&fire=7dd3fc&currStreakLabel=A78BFA&border_radius=10" alt="GitHub Streak" />
+<img width="32%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=DevKorrir&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=A78BFA&text_color=c9d1d9&border_radius=10&langs_count=6" alt="Top Languages" />
 
 <br/><br/>
 
-<img width="75%" src="https://github-readme-activity-graph.vercel.app/graph?username=DevKorrir&theme=react-dark&hide_border=true&bg_color=0d1117&color=00ff87&line=00d9ff&point=7b2cbf&area=true&border_radius=10" alt="Contribution Graph" />
+<img width="75%" src="https://github-readme-activity-graph.vercel.app/graph?username=DevKorrir&theme=react-dark&hide_border=true&bg_color=0d1117&color=A78BFA&line=7dd3fc&point=7b2cbf&area=true&border_radius=10" alt="Contribution Graph" />
 
-### 🐍 Contribution Snake
+### Contribution Snake
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DevKorrir/DevKorrir/output/github-snake-dark.svg" />
@@ -175,18 +160,11 @@ actual fun getPlatformName() = "iOS"
 
 ---
 
-## Dev Wisdom
+## A Little Dev Wisdom
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="80">
-
-```ascii
-╔════════════════════════════════════════════════════════╗
-║  "Code is like humor. When you have to explain it,     ║
-║   it's bad." - Cory House                              ║
-╚════════════════════════════════════════════════════════╝
-```
+> *"Code is like humor. When you have to explain it, it's bad."* — Cory House
 
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&border=true" alt="Random Dev Quote" />
 
@@ -198,12 +176,9 @@ actual fun getPlatformName() = "iOS"
 
 <div align="center">
 
-```ascii
-╔════════════════════════════════════════════════════════╗
-║  I'd love to hear from you! Whether it's a project,    ║
-║  collaboration, or just a chat about tech - reach out! ║
-╚════════════════════════════════════════════════════════╝
-```
+Whether it's a project, a collaboration, or just a chat about tech — I'd love to hear from you.
+
+<br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aldo-korir-kipyegon)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kipyegonaldo@gmail.com)
@@ -213,21 +188,18 @@ actual fun getPlatformName() = "iOS"
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=DevKorrir&style=for-the-badge&color=blueviolet" alt="Profile Views" />
+<img src="https://komarev.com/ghpvc/?username=DevKorrir&style=for-the-badge&color=a78bfa" alt="Profile Views" />
 
 <br/><br/>
 
-```ascii
-╔════════════════════════════════════════════════════════╗
-║                                                        ║
-║         Thanks for stopping by my profile!             ║
-║            Have an amazing day ahead!                  ║
-║                                                        ║
-╚════════════════════════════════════════════════════════╝
-```
+<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" width="100" alt="Octocat" />
 
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" width="120" alt="Octocat" />
+<br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,50:0072ff,100:7c3aed&height=120&section=footer&animation=twinkling" width="100%"/>
+*Thanks for stopping by — have a wonderful day!*
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=12,20,24&height=100&section=footer&animation=fadeIn" width="100%"/>
 
 </div>
