@@ -2,7 +2,7 @@ name: Generate GitHub Streak SVG
 
 on:
   schedule:
-    - cron: "30 */12 * * *"   # offset by 30 min from stats job
+    - cron: "30 */12 * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -16,21 +16,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate streak card
-        uses: DenverCoder1/github-readme-streak-stats@v2
-        with:
-          user: DevKorrir
-          hide_border: true
-          background: 0d1117
-          ring: F472B6
-          fire: 818CF8
-          currStreakLabel: F472B6
-          sideLabels: e2e8f0
-          dates: 94a3b8
-          border_radius: 10
-          output_path: streak.svg
-        env:
-          GH_TOKEN: ${{ secrets.PAT_1 }}
+      - name: Fetch Streak SVG
+        run: |
+          curl -s \
+            "https://streak-stats.demolab.com?user=DevKorrir&hide_border=true&background=0d1117&ring=F472B6&fire=818CF8&currStreakLabel=F472B6&sideLabels=e2e8f0&dates=94a3b8&border_radius=10" \
+            -o streak.svg
 
       - name: Commit streak SVG
         run: |

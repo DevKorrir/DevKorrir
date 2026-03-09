@@ -2,8 +2,8 @@ name: Generate GitHub Stats SVGs
 
 on:
   schedule:
-    - cron: "0 */12 * * *"   # every 12 hours
-  workflow_dispatch:          # allow manual trigger
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
   push:
     branches: [main]
 
@@ -16,43 +16,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # ── GitHub Stats ──────────────────────────────────────────────────────
-      - name: Generate stats card
-        uses: anuraghazra/github-readme-stats@latest
-        with:
-          username: DevKorrir
-          count_private: true
-          include_all_commits: true
-          show_icons: true
-          hide_border: true
-          bg_color: 0d1117
-          title_color: F472B6
-          icon_color: 818CF8
-          text_color: e2e8f0
-          border_radius: 10
-          custom_filename: github-stats
-        env:
-          PAT_1: ${{ secrets.PAT_1 }}
+      - name: Fetch GitHub Stats SVG
+        run: |
+          curl -s \
+            "https://github-readme-stats-eight-lake-60.vercel.app/api?username=DevKorrir&show_icons=true&hide_border=true&bg_color=0d1117&title_color=F472B6&icon_color=818CF8&text_color=e2e8f0&border_radius=10&count_private=true&include_all_commits=true" \
+            -o github-stats.svg
 
-      # ── Top Languages ─────────────────────────────────────────────────────
-      - name: Generate top-langs card
-        uses: anuraghazra/github-readme-stats@latest
-        with:
-          username: DevKorrir
-          layout: compact
-          langs_count: 8
-          hide: html,css
-          hide_border: true
-          bg_color: 0d1117
-          title_color: F472B6
-          text_color: e2e8f0
-          border_radius: 10
-          custom_filename: top-langs
-          card_type: top_langs
-        env:
-          PAT_1: ${{ secrets.PAT_1 }}
+      - name: Fetch Top Languages SVG
+        run: |
+          curl -s \
+            "https://github-readme-stats-eight-lake-60.vercel.app/api/top-langs/?username=DevKorrir&layout=compact&hide_border=true&bg_color=0d1117&title_color=F472B6&text_color=e2e8f0&border_radius=10&langs_count=8&hide=html,css" \
+            -o top-langs.svg
 
-      # ── Commit generated SVGs ─────────────────────────────────────────────
       - name: Commit SVGs
         run: |
           git config user.name  "github-actions[bot]"
