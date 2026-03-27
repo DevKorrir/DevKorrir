@@ -3,7 +3,7 @@ name: Generate GitHub Stats SVGs
 on:
   schedule:
     - cron: "0 6 * * *"   # once daily at 6am UTC
-  workflow_dispatch:        # manual trigger only
+  workflow_dispatch:        # manual trigger
 
 jobs:
   generate:
@@ -16,16 +16,15 @@ jobs:
 
       - name: Fetch GitHub Stats SVG
         run: |
-          curl -sf --retry 3 \
-            "https://github-readme-stats-eight-lake-60.vercel.app/api?username=korryrdev&show_icons=true&hide_border=true&bg_color=0d1117&title_color=F472B6&icon_color=818CF8&text_color=e2e8f0&border_radius=10&count_private=true&include_all_commits=true" \
+          curl -sf --retry 5 --retry-delay 3 \
+            "https://github-readme-stats.vercel.app/api?username=korryrdev&show_icons=true&hide_border=true&bg_color=0d1117&title_color=F472B6&icon_color=818CF8&text_color=e2e8f0&border_radius=10&count_private=true&include_all_commits=true&theme=transparent" \
             -o github-stats.svg
-          # Verify it's actually an SVG not an error page
           grep -q '<svg' github-stats.svg || (echo "ERROR: stats response is not SVG" && cat github-stats.svg && exit 1)
 
       - name: Fetch Top Languages SVG
         run: |
-          curl -sf --retry 3 \
-            "https://github-readme-stats-eight-lake-60.vercel.app/api/top-langs/?username=korryrdev&layout=compact&hide_border=true&bg_color=0d1117&title_color=F472B6&text_color=e2e8f0&border_radius=10&langs_count=8&hide=html,css" \
+          curl -sf --retry 5 --retry-delay 3 \
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=korryrdev&layout=compact&hide_border=true&bg_color=0d1117&title_color=F472B6&text_color=e2e8f0&border_radius=10&langs_count=8&hide=html,css&theme=transparent" \
             -o top-langs.svg
           grep -q '<svg' top-langs.svg || (echo "ERROR: top-langs response is not SVG" && cat top-langs.svg && exit 1)
 
