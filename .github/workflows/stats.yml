@@ -17,7 +17,7 @@ jobs:
       - name: Fetch GitHub Stats SVG
         run: |
           curl -sf --retry 3 \
-            "https://github-readme-stats-eight-lake-60.vercel.app/api?username=DevKorrir&show_icons=true&hide_border=true&bg_color=0d1117&title_color=F472B6&icon_color=818CF8&text_color=e2e8f0&border_radius=10&count_private=true&include_all_commits=true" \
+            "https://github-readme-stats-eight-lake-60.vercel.app/api?username=korryrdev&show_icons=true&hide_border=true&bg_color=0d1117&title_color=F472B6&icon_color=818CF8&text_color=e2e8f0&border_radius=10&count_private=true&include_all_commits=true" \
             -o github-stats.svg
           # Verify it's actually an SVG not an error page
           grep -q '<svg' github-stats.svg || (echo "ERROR: stats response is not SVG" && cat github-stats.svg && exit 1)

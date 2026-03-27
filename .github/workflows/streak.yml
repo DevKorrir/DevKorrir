@@ -17,7 +17,7 @@ jobs:
       - name: Fetch Streak SVG
         run: |
           curl -sf --retry 3 \
-            "https://streak-stats.demolab.com?user=DevKorrir&hide_border=true&background=0d1117&ring=F472B6&fire=818CF8&currStreakLabel=F472B6&sideLabels=e2e8f0&dates=94a3b8&border_radius=10" \
+            "https://streak-stats.demolab.com?user=korryrdev&hide_border=true&background=0d1117&ring=F472B6&fire=818CF8&currStreakLabel=F472B6&sideLabels=e2e8f0&dates=94a3b8&border_radius=10" \
             -o streak.svg
           grep -q '<svg' streak.svg || (echo "ERROR: streak response is not SVG" && cat streak.svg && exit 1)
           # Fix near-black number color to be visible on dark background
