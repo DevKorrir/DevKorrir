@@ -45,14 +45,14 @@ object Developer {
 
 | Project | What it does | Stack |
 |---------|-------------|-------|
-| [**AgriConnect**](https://github.com/DevKorrir/AgriConnect) | Connects farmers, buyers & experts via real-time chat, listings & delivery coordination | Kotlin · Compose · MVVM · Firebase |
-| [**TubeFetch-Kotlin**](https://github.com/DevKorrir/tubeFetch-Kotlin) | Modern YouTube video & audio downloader with background downloads | Kotlin · Compose · WorkManager · Room |
-| [**SmartPace**](https://github.com/DevKorrir/SmartPace) | Student planner with study schedules, reminders & built-in chat | Flutter · Firebase · Dart |
-| [**mpesa-daraja-Kotlin**](https://github.com/DevKorrir/mpesa_daraja_integration-Kotlin) | Clean M-Pesa STK Push integration for Android apps | Kotlin · Retrofit · Coroutines |
-| [**TransCore-Kotlin**](https://github.com/DevKorrir/TransCore-Kotlin) | Translation app supporting 100+ languages | Kotlin · Compose · Hilt · Retrofit |
-| [**wavyExpressive-Kotlin**](https://github.com/DevKorrir/wavyExpressive-Koltin) | Material3 Expressive APIs demo — wavy progress & dynamic theming | Kotlin · Compose · Material3 |
-| [**mustid-kotlin**](https://github.com/DevKorrir/mustid-kotlin) | Student identity management via QR code scanning | Kotlin · Compose · Firebase |
-| [**Voyager-Navigation-CMP**](https://github.com/DevKorrir/Voyager-Navigation-CMP) | KMP demo for Android & iOS using Voyager navigation | Kotlin Multiplatform · CMP |
+| [**AgriConnect**](https://github.com/korryrdev/AgriConnect) | Connects farmers, buyers & experts via real-time chat, listings & delivery coordination | Kotlin · Compose · MVVM · Firebase |
+| [**TubeFetch-Kotlin**](https://github.com/korryrdev/tubeFetch-Kotlin) | Modern YouTube video & audio downloader with background downloads | Kotlin · Compose · WorkManager · Room |
+| [**SmartPace**](https://github.com/korryrdev/SmartPace) | Student planner with study schedules, reminders & built-in chat | Flutter · Firebase · Dart |
+| [**mpesa-daraja-Kotlin**](https://github.com/korryrdev/mpesa_daraja_integration-Kotlin) | Clean M-Pesa STK Push integration for Android apps | Kotlin · Retrofit · Coroutines |
+| [**TransCore-Kotlin**](https://github.com/korryrdev/TransCore-Kotlin) | Translation app supporting 100+ languages | Kotlin · Compose · Hilt · Retrofit |
+| [**wavyExpressive-Kotlin**](https://github.com/korryrdev/wavyExpressive-Koltin) | Material3 Expressive APIs demo — wavy progress & dynamic theming | Kotlin · Compose · Material3 |
+| [**mustid-kotlin**](https://github.com/korryrdev/mustid-kotlin) | Student identity management via QR code scanning | Kotlin · Compose · Firebase |
+| [**Voyager-Navigation-CMP**](https://github.com/korryrdev/Voyager-Navigation-CMP) | KMP demo for Android & iOS using Voyager navigation | Kotlin Multiplatform · CMP |
 
 </div>
 
@@ -75,7 +75,7 @@ actual fun getPlatformName() = "iOS"      // iOS
 <img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white" />
 <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
 
-Exploring shared business logic, navigation & UI across Android and iOS. See [**Voyager-Navigation-CMP**](https://github.com/DevKorrir/Voyager-Navigation-CMP) for a tab-based stack navigation demo on both platforms.
+Exploring shared business logic, navigation & UI across Android and iOS. See [**Voyager-Navigation-CMP**](https://github.com/korryrdev/Voyager-Navigation-CMP) for a tab-based stack navigation demo on both platforms.
 
 </div>
 
@@ -140,23 +140,23 @@ Exploring shared business logic, navigation & UI across Android and iOS. See [**
 
 <div align="center">
 
-<img height="180" src="https://raw.githubusercontent.com/DevKorrir/DevKorrir/main/github-stats.svg" alt="GitHub Stats" />
-<img height="180" src="https://raw.githubusercontent.com/DevKorrir/DevKorrir/main/streak.svg" alt="GitHub Streak" />
+<img height="180" src="https://raw.githubusercontent.com/korryrdev/korryrdev/main/github-stats.svg" alt="GitHub Stats" />
+<img height="180" src="https://raw.githubusercontent.com/korryrdev/korryrdev/main/streak.svg" alt="GitHub Streak" />
 
 <br/><br/>
 
-<img height="160" src="https://raw.githubusercontent.com/DevKorrir/DevKorrir/main/top-langs.svg" alt="Top Languages" />
+<img height="160" src="https://raw.githubusercontent.com/korryrdev/korryrdev/main/top-langs.svg" alt="Top Languages" />
 
 <br/><br/>
 
-<img width="75%" src="https://github-readme-activity-graph.vercel.app/graph?username=DevKorrir&theme=react-dark&hide_border=true&bg_color=0d1117&color=F472B6&line=818CF8&point=c084fc&area=true&border_radius=10" alt="Contribution Graph" />
+<img width="75%" src="https://github-readme-activity-graph.vercel.app/graph?username=korryrdev&theme=react-dark&hide_border=true&bg_color=0d1117&color=F472B6&line=818CF8&point=c084fc&area=true&border_radius=10" alt="Contribution Graph" />
 
 ### Contribution Snake
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DevKorrir/DevKorrir/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DevKorrir/DevKorrir/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/DevKorrir/DevKorrir/output/github-snake.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/korryrdev/korryrdev/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/korryrdev/korryrdev/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/korryrdev/korryrdev/output/github-snake.svg" width="100%" />
 </picture>
 
 </div>
@@ -191,7 +191,7 @@ Whether it's a project, a collaboration, or just a chat about tech — I'd love 
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=DevKorrir&style=for-the-badge&color=F472B6" alt="Profile Views" />
+<img src="https://komarev.com/ghpvc/?username=korryrdev&style=for-the-badge&color=F472B6" alt="Profile Views" />
 
 <br/><br/>
 
